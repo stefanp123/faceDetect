@@ -36,4 +36,4 @@ sudo rm -f /etc/dphys-swapfile
 sudo mv /etc/swap.bak /etc/dphys-swapfile
 sudo /etc/init.d/dphys-swapfile stop
 sudo /etc/init.d/dphys-swapfile start
-
+sudo reboot 
